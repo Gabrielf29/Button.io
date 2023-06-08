@@ -1,0 +1,88 @@
+body{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0px;
+background-image: url('../image/wp2732962.jpg');
+flex-direction: column;
+}
+
+.image_clq{
+width: 150px;
+height: auto;
+background-color: aqua;
+margin: 30px;
+flex: 1;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.Button{
+width: 210px;
+height: 120px;
+padding: 5px;
+margin-top: 30px;
+background-color: rgb(223, 245, 30);
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 10px ;
+box-shadow: 2px 4px 10px #444;
+flex: 1;
+
+}
+
+.Button:hover{
+    background-color: rgb(109, 109, 86);
+    width: 230px;
+    height: 140px;
+    box-shadow: 4px 8px 10px #444;
+}
+
+.link_Button{
+    font-size: 25px;
+    font-weight: 700px;
+    color: #111;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Roboto;
+}
+
+.link_Button:hover{
+    font-size: 32px;
+    color: #eee;
+    font-family: Lobster;
+}
+
+footer{
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h4{
+color: #fff;
+font-size: 20px;
+text-decoration: none;
+}
+
+h4:hover{
+    color: #ccc;
+    font-size: 22px;
+
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover{
+color: #abb;
+font-style: italic;
+}
